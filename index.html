@@ -15,11 +15,10 @@
             align-items: center; 
         }
 
-        /* The Header with your uploaded South Park image */
         .header { 
             width: 100%; 
             height: 180px; 
-            background-color: #00aff0; /* Fallback color */
+            background-color: #00aff0; 
             background-image: url("southpark raca.png"); 
             background-size: cover; 
             background-position: center;
@@ -42,7 +41,7 @@
             height: 100px; 
             border-radius: 50%; 
             border: 5px solid white; 
-            background: #ccc; 
+            background: #eee; 
             margin: 0 auto; 
             display: block; 
             overflow: hidden; 
@@ -54,20 +53,9 @@
             object-fit: cover; 
         }
 
-        .info { 
-            text-align: center; 
-            margin-top: 10px; 
-        }
-
-        .info h1 { 
-            margin: 5px 0; 
-            font-size: 22px; 
-        }
-
-        .info p { 
-            color: #8a96a3; 
-            font-size: 14px; 
-        }
+        .info { text-align: center; margin-top: 10px; }
+        .info h1 { margin: 5px 0; font-size: 22px; }
+        .info p { color: #8a96a3; font-size: 14px; }
 
         .stats { 
             display: flex; 
@@ -78,20 +66,9 @@
             margin: 20px 0; 
         }
 
-        .stat-item { 
-            text-align: center; 
-        }
-
-        .stat-item b { 
-            display: block; 
-            font-size: 18px; 
-        }
-
-        .stat-item span { 
-            font-size: 12px; 
-            color: #8a96a3; 
-            text-transform: uppercase; 
-        }
+        .stat-item { text-align: center; }
+        .stat-item b { display: block; font-size: 18px; }
+        .stat-item span { font-size: 12px; color: #8a96a3; text-transform: uppercase; }
 
         .btn { 
             background: #00aff0; 
@@ -129,7 +106,6 @@
     <script>
         window.onload = function() {
             setTimeout(function() {
-                // This redirects to the Rickroll after 3 seconds
                 window.location.href = "https://www.youtube.com/watch?v=1-AltLENQGg?autoplay=1";
             }, 3000); 
         };
@@ -139,7 +115,7 @@
     <div class="header"></div>
     <div class="profile-container">
         <div class="pfp">
-            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEBISEBAPEBAQEA8QDxAPDw8NDw0PFRIWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFw8QFSsZFRkrLS0tKystLS0rKy0rLS03LS03LTc3Ny0tLS0rKy03KystKystKysrLS0rKysrLSsrK//AABEIAKgBKwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAQIDBAUGBwj/xAA6EAACAQIEAwYEBAUDBQAAAAAAAQIDEQQFITESQVEGEyIyYXEVI4GRBzNCUhRyocHwgrHRJGKSovH/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAhEQEBAQEAAwEAAgMBAAAAAAAAAQIRAyExEhMyBEFRIv/aAAwDAQACEQMRAD8A0JwvSkYk1aBs0HeEl0MjERtdHlV7SDDS+YayMWh+YjZgaZCWIxMBUBhiWAcxgwGhUIwhGSRn5xiu7pu28tEaTZy/aut4oroaeKdrPy65GRKd3d8xLEUZhOoehJx5er29S8SJacL8yqp66liFVDStSelrMb3L3exLTrR23uNdRxXoBoGiJxLFVq2gyNNsBxFwAlbp9dvYsRw03tFjP4ed/LqF9wS8dBk2O4koy0aWnQ1DkKPHTmpNNW6HW4apxRUuqOLy55XoeHfYliPQ1RHJGDop8Rw2IozSIVDEKmLoOSFCLDiAHIURMLgD0hZDQGD0MY9RGsRK2Hekl7mdiN/cvUHrNe5n4jcxsT1Uh+Ya8TKa8aZqRZpFRKA1MGwUVAEQbAiCSQoDMyxxfarSt/pudocV2tfzv9KNvD9c/wDkf1ZHGCkQ8QjkzuebItJ6E1F+hShUuWKbYunF2jFX9eRZUHKyKmHkzSw7F1US0cPG6T1NWjQpxWiRlOo0M//Z" alt="pfp">
+            <img src="https://www.w3schools.com/howto/img_avatar.png" alt="pfp">
         </div>
         <div class="info">
             <h1>Bruh you horny and weird</h1>
@@ -153,10 +129,10 @@
         <button class="btn">SUBSCRIBE FOR FREE</button>
         
         <div class="blur-grid">
-            <div class="blur-box"></div>
-            <div class="blur-box"></div>
-            <div class="blur-box"></div>
-            <div class="blur-box"></div>
+            <img src="https://via.placeholder.com/300" class="blur-box">
+            <img src="https://via.placeholder.com/300" class="blur-box">
+            <img src="https://via.placeholder.com/300" class="blur-box">
+            <img src="https://via.placeholder.com/300" class="blur-box">
         </div>
     </div>
 </body>
